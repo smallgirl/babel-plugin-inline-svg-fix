@@ -1,0 +1,30 @@
+{
+  "name": "babel-plugin-inline-svg-fix",
+  "version": "0.0.0",
+  "description": "Babel plugin to optimise and inline svg",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:smallgirl/babel-plugin-inline-svg.git",
+    "type": "git"
+  },
+  "files": [
+    "index.js",
+    "babel-plugin-inline-svg.js",
+    "optimise.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "758277650@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "babel-template": "^6.26.0",
+    "resolve-from": "^4.0.0",
+    "svgo": "^1.0.3",
+    "synchronized-promise": "^0.0.4"
+  }
+}
